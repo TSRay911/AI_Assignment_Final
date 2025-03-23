@@ -1,0 +1,9 @@
+streamlit
+pandas
+torch 
+torchvision 
+torchaudio
+pillow
+scikit-learn
+fastparquet
+pyarrow
