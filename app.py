@@ -44,7 +44,7 @@ new_transform = transforms.Compose([
     transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5))
 ])
 
-class_name = ['action','horror','mecha','romance','sports']
+class_name = ['action','horror','romance','sci-fi','sports']
 
 @st.dialog("Anime Details", width="large")
 def anime_details(item):
