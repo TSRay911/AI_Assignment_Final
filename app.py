@@ -93,9 +93,8 @@ def display_results(recommendations):
         }
 
         html_code = f"""
-        <div style="width:100%; height:350px; overflow:hidden; margin-bottom: 10px;">
-            <img src="{anime_data['poster_url']}" style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
-                    
+        <div style="width:100%; height:385px; overflow:hidden; margin-bottom: 10px;">
+            <img src="{anime_data['poster_url']}" style="width:100%; height:100%; object-fit:cover; border-radius:8px;"> 
         </div>
         <div style="width:100%; height:100px; display:flex; align-items:center; justify-content:center; margin-bottom:10px;">
             <p style="margin:0; font-size:16px; text-align:center;">{anime_data['anime_name']}</p>
