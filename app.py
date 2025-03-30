@@ -34,7 +34,7 @@ model.load_state_dict(torch.load('models/collaborative_weights.pth', map_locatio
 model.eval()
 
 net = NeuralNet()
-net.load_state_dict(torch.load('models/trained_image_model_SGDV3.pth', map_location=torch.device('cpu')))
+net.load_state_dict(torch.load('models/trained_image_model_SGDV5.pth', map_location=torch.device('cpu')))
 net.eval()
 
 new_transform = transforms.Compose([
